@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMSI Centennial Activity</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>UMSI</h1>
+        <button id="changeTitleButton" type="button" onclick="changeTitle()">Change Title</button>
+        <div id="message"></div>
+        <button id="addMessageButton">Add Centennial Message</button>
+
+        <h2>UMSI Through the Years:</h2>
+        <ul id="historyList">
+            <li>1926 Department of Library Science</li>
+            <li>1969 School of Library Science</li>
+            <li>1986 School of Information and Library Studies</li>
+            <li>1996 School of Information</li>
+            <li>2026 Centennial Celebration</li>
+        </ul>
+        <p>
+            <b>URL of this page :</b> <span id="URL"></span><br />
+            <b>Number of list items on this page :</b> <span id="items"></span><br />
+            <b>Current date/time :</b> <span id="time"></span><br />
+        </p>
+        <button type="button" onClick="displayInformation()">Display Information</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
